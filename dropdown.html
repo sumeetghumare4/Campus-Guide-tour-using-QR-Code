@@ -1,0 +1,49 @@
+<html>
+
+    <head>
+
+        <title>Dropdown</title>
+
+        <link rel="stylesheet" href="dropdown.css">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <button class="click">Click Me</button>
+
+            <div class="list">
+
+                <button class="links"><link href="www.youtube.com">Link 1</button>
+
+                <button class="links">Link 2</button>
+
+                <button class="links">Link 3</button>
+
+                <button class="links">Link 4</button>
+
+                <button class="links">Link 5</button>
+
+            </div>
+
+        </div>
+
+        <script>
+
+            let click = document.querySelector('.click');
+
+            let list = document.querySelector('.list');
+
+            click.addEventListener("click",()=>{
+
+                list.classList.toggle('newlist');
+
+            });
+
+        </script>
+
+    </body>
+
+</html>
